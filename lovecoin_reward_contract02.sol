@@ -9,7 +9,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 BETA/DRAFT - NOT TESTED !!! - DO NOT USE THIS SOURCE FOR LIVE-REVARD
-Draft 0.2 - 06.feb.2018
+Draft 0.3 - 06.feb.2018
 
 */
 
@@ -36,10 +36,10 @@ Example in detail: How a Token-Holder can get rewards in ETH for his tokens?
   - ETH are received by normal ETH transactions ( function () payable )
   - Tokens are received by 1) calling the approve-function of the ERC-20 token contract,
                            2) calling the confirm_token_deposit() of this smart contract.
-...svensven
+ 
                            
 * One day in a week is 'claiming day' for 24 hours. In this period all token deposits should
-  have done. By calling 
+  have done. By calling (...to be continued)
 
 withdraw_token_and_eth()
                      _________________                          ____________
